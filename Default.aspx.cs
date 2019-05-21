@@ -16,6 +16,12 @@ public partial class _Default : System.Web.UI.Page
     {
 <<<<<<< HEAD
         //Test
+=======
+
+    hello this will bring Conflict
+
+        //Commecnt Added by Arpit
+>>>>>>> 8c90ba8e34fbdf356615376422081c097c7ef5b6
 
         PrincipalContext ctx = new PrincipalContext(ContextType.Domain, domainName);
         GroupPrincipal grp = GroupPrincipal.FindByIdentity(ctx, IdentityType.Name, groupName);
