@@ -14,7 +14,7 @@ public partial class _Default : System.Web.UI.Page
     }
     public void getMembers(string domainName, string groupName)
     {
-
+        //Commecnt Added by Arpit
 
         PrincipalContext ctx = new PrincipalContext(ContextType.Domain, domainName);
         GroupPrincipal grp = GroupPrincipal.FindByIdentity(ctx, IdentityType.Name, groupName);
