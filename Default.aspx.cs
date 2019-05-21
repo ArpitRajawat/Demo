@@ -14,6 +14,7 @@ public partial class _Default : System.Web.UI.Page
     }
     public void getMembers(string domainName, string groupName)
     {
+<<<<<<< HEAD
         //Test
 
         PrincipalContext ctx = new PrincipalContext(ContextType.Domain, domainName);
